@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: shery1;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;   
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#nav{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(1, 1, 0, 0.204);
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 3;
+    top: 5px;
+    left: 5px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    /* border-bottom: 1px solid rgba(255,255,255,0.2); */
+}
+#navpart1{
+    width: 75%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 40px;
+    padding-left: 30px; */
+
+}
+#navpart11{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 15px;
+}
+#navpart2 h4{
+    font-size: 25px;
+}
+
+img{
+    height: 85px;
+    width: 180px;
+    padding-right: 50px;
+}
+#texts{
+/*     
+    height: 150px;
+    width: 500px; */
+    background-color: transparent;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: white;
+}
+#texts h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: driver;
+    letter-spacing: 3px;
+}
+#texts h3{
+    font-size: 15px;
+    padding-bottom: 30px;
+    font-family: sakana;
+}
+#texts button{
+     padding: 20px 30px;
+     border-radius: 30px;
+     backdrop-filter: blur(12px);
+     background-color: rgba(0, 0, 0, 0.215);
+     border: none;
+     font-family: sakana;
+     color: white;
+     transition: all 0.3s ease;
+   
+}
+#texts button:hover{
+    background-color: black;
+    border: 1px solid aliceblue;
+    transform: scale(1.2);
+}
+span{
+    text-align: center;
+    padding-left: 15px;
+    font-size: 90px;
+    font-family: greatVibes;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgb(22, 22, 168);
+    mix-blend-mode: difference;
+    backdrop-filter: blur(5px); 
+    padding: 5px 20px;  
+}
+@font-face {
+    font-family: shery1;
+    src: url(./font1.woff2);
+}
+@font-face {
+    font-family: facon;
+    src: url(./Facon.ttf);
+}
+@font-face {
+    font-family: sakana;
+    src: url(./Sakana.ttf);
+}
+@font-face {
+    font-family: driver;
+    src: url(./RushDriver-Italic.otf);
+}
+
+@font-face {
+    font-family: greatVibes;
+    src: url(./GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family: priest;
+    src: url(./Priestacy.otf);
+}
