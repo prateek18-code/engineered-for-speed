@@ -20,5 +20,5 @@ A high-performance **Formula 1 inspired landing page** featuring a cinematic vid
 ---
 
 ## 💡 Inspiration
-Inspired by the fast-paced world of Formula 1 racing, this project aims to capture the feeling of speed, precision, and performance through UI design.
+Inspired by the fast-paced world of Formula 1 racing, this project aims to capture the feeling of speed, precision, and performance through UI design. I learned how to use a video as a background
 
