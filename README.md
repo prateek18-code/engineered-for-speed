@@ -8,7 +8,6 @@ A high-performance **Formula 1 inspired landing page** featuring a cinematic vid
 -  Dynamic F1 video background  
 -  Minimal and clean UI  
 -  Speed-inspired design aesthetics  
--  Responsive layout  
 -  Focused headline: *"Engineered for Speed"*  
 
 ---
